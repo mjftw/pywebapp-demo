@@ -11,5 +11,7 @@ setuptools.setup(
     package_dir={'': 'src'},
     packages=['brewinv'],
     python_requires='>=3.6',
-    install_requires=[]
+    install_requires=[
+        'fastapi'
+    ]
 )
