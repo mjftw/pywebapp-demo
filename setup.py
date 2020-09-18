@@ -12,6 +12,7 @@ setuptools.setup(
     packages=['brewinv'],
     python_requires='>=3.6',
     install_requires=[
-        'fastapi'
+        'fastapi',
+        'sqlalchemy'
     ]
 )

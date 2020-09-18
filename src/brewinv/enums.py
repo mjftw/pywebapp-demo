@@ -1,7 +1,7 @@
-import enum
+from enum import Enum
 
 
-class IngredientTypesEnum(enum.Enum):
+class IngredientTypesEnum(str, Enum):
     hops = 'hops'
     malts = 'malts'
     yeast = 'yeast'
@@ -9,7 +9,7 @@ class IngredientTypesEnum(enum.Enum):
     misc = 'misc'
 
 
-class UnitsEnum(enum.Enum):
+class UnitsEnum(str, Enum):
     milliliters = 'ml'
     liters = 'l'
     grams = 'g'
